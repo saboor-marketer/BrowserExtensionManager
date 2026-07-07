@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Extension Manager</h1>
+            <div class="theme-selector">
+                <button class="theme-btn" data-theme="light" aria-label="Light theme">
+                    <span class="theme-icon">☀️</span>
+                </button>
+                <button class="theme-btn" data-theme="dark" aria-label="Dark theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="theme-btn" data-theme="blue" aria-label="Blue theme">
+                    <span class="theme-icon">🔵</span>
+                </button>
+                <button class="theme-btn" data-theme="green" aria-label="Green theme">
+                    <span class="theme-icon">🟢</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="filter-section">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="inactive">Inactive</button>
+        </div>
+
+        <div class="extensions-grid" id="extensionsGrid">
+            <!-- Extensions will be dynamically added here -->
+        </div>
+
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <p>No extensions found</p>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="modal-overlay" id="confirmModal">
+        <div class="modal">
+            <h2>Remove Extension</h2>
+            <p>Are you sure you want to remove this extension?</p>
+            <div class="modal-actions">
+                <button class="btn btn-cancel" id="cancelRemove">Cancel</button>
+                <button class="btn btn-danger" id="confirmRemove">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

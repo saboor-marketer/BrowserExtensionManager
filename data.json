@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Dark Mode",
+    "description": "Enable dark mode on any website",
+    "icon": "🌙",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Ad Blocker",
+    "description": "Block annoying ads and pop-ups",
+    "icon": "🛡️",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Password Manager",
+    "description": "Securely store and auto-fill passwords",
+    "icon": "🔐",
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "Grammar Checker",
+    "description": "Check grammar and spelling as you type",
+    "icon": "✍️",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Screenshot Tool",
+    "description": "Capture screenshots of web pages",
+    "icon": "📸",
+    "active": false
+  },
+  {
+    "id": 6,
+    "name": "Weather Widget",
+    "description": "Get current weather in your toolbar",
+    "icon": "🌤️",
+    "active": true
+  },
+  {
+    "id": 7,
+    "name": "Note Taker",
+    "description": "Quick notes and reminders",
+    "icon": "📝",
+    "active": false
+  },
+  {
+    "id": 8,
+    "name": "Currency Converter",
+    "description": "Convert currencies in real-time",
+    "icon": "💱",
+    "active": true
+  }
+]
